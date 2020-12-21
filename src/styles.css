@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+#text {
+  padding: 10px;
+  color: red;
+  outline: none;
+  font-size: 14pt;
+  display: flex;
+  border: 2px solid #888;
+  overflow: auto;
+}
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
